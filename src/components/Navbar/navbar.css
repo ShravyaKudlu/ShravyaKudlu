@@ -1,0 +1,8 @@
+.navbar-nav .nav-item .nav-link:hover {
+    color: white; /* Change to your desired text color on hover */
+    background-color: black /* Change to your desired background color on hover */
+    /* Add any other styling you want for the hover effect */
+  }
+
+
+  
