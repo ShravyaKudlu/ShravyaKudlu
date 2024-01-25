@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "./components/Navbar/navbar";
 import Home from "./components/Home/home";
 import Contact from "./components/Contact/contact";
