@@ -11,7 +11,7 @@ function App() {
       <NavBar brandName="ShravyaKudlu" imageSrcPath={imagePath} navItems={items} />
       <Home />
       <Contact
-        linkedinUrl={""}
+        linkedinUrl={"https://www.linkedin.com/in/shravya-kudlu/"}
         resumeUrl={"./assets/ShravyaKudluResume.pdf"}
         email={"shravyakudlu@gmail.com"}
         phone={"8628001476"}
