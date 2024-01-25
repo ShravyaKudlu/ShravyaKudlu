@@ -1,10 +1,17 @@
 .contact-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center; /* Center the icons horizontally */
-    background-color: #242424;; /* Dark background color */
-    padding: 20px; /* Add padding for better visibility */
-  }
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* Center the icons horizontally */
+  background-color: #212529; /* Dark background color */
+  padding: 10px; /* Add padding for better visibility */
+
+  position: sticky;
+  bottom: 0; /* Fix the container to the bottom of the viewport */
+  left: 0; /* Align the container to the left edge of the viewport */
+  width: 100%; /* Make the container full width */
+  margin-top: 5%;
+}
+
   
   .contact-container a {
     text-decoration: none;
@@ -15,5 +22,6 @@
   /* Optional: Add hover styles */
   .contact-container a:hover {
     color: aquamarine; /* Choose your preferred hover color */
+    font-size: 105%;
   }
   

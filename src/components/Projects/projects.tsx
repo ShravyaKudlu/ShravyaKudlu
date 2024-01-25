@@ -1,9 +1,15 @@
-//import React from 'react'
+import Project1 from "./project1/flippable-card";
+import Project2 from "./project2/flippable-card";
+import "./projects.css";
 
 function projects() {
   return (
-    <div className='Skills'>
-        <h3>Projects</h3>
+    <div className="projectnames">
+        <h2>Projects</h2>
+        <div className="projects">
+            <Project1 />
+            <Project2 />
+        </div>
     </div>
   )
 }

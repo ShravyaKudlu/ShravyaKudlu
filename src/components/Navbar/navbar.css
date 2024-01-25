@@ -3,6 +3,9 @@
     background-color: black /* Change to your desired background color on hover */
     /* Add any other styling you want for the hover effect */
   }
-
+.navbar {
+    position: sticky; /* Change fixed-top to relative */
+    /* other styles */
+}
 
   
