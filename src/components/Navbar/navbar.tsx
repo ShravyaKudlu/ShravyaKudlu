@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "./navbar.css";
 
@@ -13,9 +14,8 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
 
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark shadow fixed-top">
-      {/* Add "fixed-top" class to keep the navbar fixed */}
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link to="/" className="navbar-brand">
           <img
             src={imageSrcPath}
             width="60"
@@ -24,8 +24,7 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
             alt=""
           />
           <span className="fw-bolder fs-4 text-light">{brandName}</span>
-          {/* Use "text-light" class for light text on dark background */}
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -45,12 +44,12 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
                 className="nav-item"
                 onClick={() => setSelectedIndex(index)}
               >
-                <a
+                <Link
+                  to={`/${item.toLowerCase()}`}
                   className={`nav-link ${selectedIndex === index ? "active fw-bold" : "text-light"}`}
-                  href="#"
                 >
                   {item}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
