@@ -1,15 +1,17 @@
 //import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+//import About from './components/About/about';
 import NavBar from "./components/Navbar/navbar";
 import Home from "./components/Home/home";
 import Skills from "./components/Skills/skills"; // Import Skills component
 import Projects from "./components/Projects/projects"; // Import Projects component
 import Contact from "./components/Contact/contact";
 import imagePath from "./assets/Shravya.ico";
+import About from "./components/About/about";
 import "./App.css";
 
 function App() {
-  const items = ["HOME", "SKILLS", "PROJECTS"];
+  const items = ["ABOUT", "SKILLS", "PROJECTS"];
 
   return (
     <Router>
@@ -17,9 +19,9 @@ function App() {
         <NavBar brandName="ShravyaKudlu" imageSrcPath={imagePath} navItems={items} />
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/ShravyaKudlu/" element={<Home />} />
+          <Route path="/" element={<About />} />
+          <Route path="/about" element={<Home />} />
+          <Route path="/ShravyaKudlu/" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>

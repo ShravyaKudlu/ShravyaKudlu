@@ -1,0 +1,36 @@
+
+  .swiper {
+    width: 80%; /* Set width to 80% of the parent container or viewport */
+    max-width: 90vw;
+    height: 80vh; /* Set height to 60% of the viewport height */
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: black;   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    width: max-content;
+  }
+  
+  @media (min-width: 768px) {
+    .swiper-slide {
+      font-size: 24px;
+    }
+  }
+  
+  .swiper-container{
+    width: 100%; /* Set width to 80% of the parent container or viewport */
+    height: 100%; /* Set height to 60% of the viewport height */
+    background-color: black;
+
+  }
+
+  .mySwiper{
+    width: fit-content;
+  }
+  

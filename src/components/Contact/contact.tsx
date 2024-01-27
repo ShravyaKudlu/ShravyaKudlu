@@ -13,13 +13,17 @@ interface ContactProps {
 const Contact: React.FC<ContactProps> = ({ linkedinUrl, resumeUrl, email, phone, githubUrl }) => {
   return (
     <div className="contact-container">
-      <a href={linkedinUrl} target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-      <a href={resumeUrl} target="_blank" rel="noopener noreferrer"><FaFileAlt /></a>
-      <a href={`mailto:${email}`}><FaEnvelope /></a>
-      <a href={`tel:${phone}`}><FaPhone /></a>
-      <a href={githubUrl} target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+      <h4>Contact</h4>
+      <div className="contact-links">
+        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+        <a href={resumeUrl} target="_blank" rel="noopener noreferrer"><FaFileAlt /></a>
+        <a href={`mailto:${email}`}><FaEnvelope /></a>
+        <a href={`tel:${phone}`}><FaPhone /></a>
+        <a href={githubUrl} target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+      </div>
     </div>
   );
+  
 };
 
 export default Contact;
