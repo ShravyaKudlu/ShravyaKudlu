@@ -146,7 +146,36 @@ const Skills: React.FC = () => {
         </ul>
       </section>
 
-     
+      <section className="courses">
+        <h2>Courses</h2>
+        <ul>
+          <li>
+            <div className="animated-bar-container">
+              <div className="animated-bar" data-percent="90"></div>
+              <span className="skill-name">Data Structures & Algorithms</span>
+            </div>
+          </li>
+          <li>
+            <div className="animated-bar-container">
+              <div className="animated-bar" data-percent="80"></div>
+              <span className="skill-name">Cloud Computing</span>
+            </div>
+          </li>
+          <li>
+            <div className="animated-bar-container">
+              <div className="animated-bar" data-percent="75"></div>
+              <span className="skill-name">Internet & Higher Level Protocols</span>
+            </div>
+          </li>
+          <li>
+            <div className="animated-bar-container">
+              <div className="animated-bar" data-percent="80"></div>
+              <span className="skill-name">Operating System</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+
       <section className="ci-cd">
         <h2>CI/CD & Tools</h2>
         <ul>
@@ -188,39 +217,7 @@ const Skills: React.FC = () => {
           </li>
         </ul>
       </section>
-
-      <section className="courses">
-        <h2>Courses</h2>
-        <ul>
-          <li>
-            <div className="animated-bar-container">
-              <div className="animated-bar" data-percent="90"></div>
-              <span className="skill-name">Data Structures & Algorithms</span>
-            </div>
-          </li>
-          <li>
-            <div className="animated-bar-container">
-              <div className="animated-bar" data-percent="80"></div>
-              <span className="skill-name">Cloud Computing</span>
-            </div>
-          </li>
-          <li>
-            <div className="animated-bar-container">
-              <div className="animated-bar" data-percent="75"></div>
-              <span className="skill-name">Internet & Higher Level Protocols</span>
-            </div>
-          </li>
-          <li>
-            <div className="animated-bar-container">
-              <div className="animated-bar" data-percent="80"></div>
-              <span className="skill-name">Operating System</span>
-            </div>
-          </li>
-        </ul>
-      </section>
     </div>
-
-    
   );
 }
 

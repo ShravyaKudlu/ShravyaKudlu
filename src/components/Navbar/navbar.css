@@ -1,29 +1,40 @@
 /* Default state */
 .navbar-nav .nav-item .nav-link {
-  color: #fff; /* Set your default text color */
+  color: rgb(72, 8, 69); /* Set your default text color */
+
  /* Add any other default styling */
+}
+
+li.nav-item{
+  margin-bottom: 0%;
 }
 
 /* Hover state */
 .navbar-nav .nav-item .nav-link:hover {
-  color: #67d7af; /* Change to your desired text color on hover */
-  background-color: black; /* Change to your desired background color on hover */
+  background-color: pink; /* Change to your desired background color on hover */
+  color: #2d0140b2;
   /* Add any other styling for the hover effect */
 }
 
 /* Focus state (after clicking) */
 .navbar-nav .nav-item .nav-link:focus {
   outline: none; /* Remove the default focus outline */
-  color: #67d7af; /* Set your active text color */
-  background-color: black; /* Set your active background color */
+  color:  #2d0140b2; /* Set your active text color *//* Set your active background color */
   /* Add any other styling for the active state */
+  font-weight: bolder;
 }
 
 
 .navbar {
     position: sticky; /* Change fixed-top to relative */
+    font-size: large;
+    font-weight: bold;
     /* other styles */
 }
+.brand-name{
+  color: rgb(72, 8, 69);
+}
+
 
 
   

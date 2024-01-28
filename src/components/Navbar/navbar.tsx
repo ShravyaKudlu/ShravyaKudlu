@@ -13,7 +13,7 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark shadow fixed-top">
+    <nav className="navbar navbar-expand-md navbar-dark bg-tranparent fixed-top">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
           <img
@@ -23,7 +23,7 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
             className="d-inline-block align-center"
             alt=""
           />
-          <span className="fw-bolder fs-4 text-light">{brandName}</span>
+          <span className="fw-bolder fs-4 brand-name">{brandName}</span>
         </Link>
         <button
           className="navbar-toggler"
@@ -46,7 +46,7 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
               >
                 <Link
                   to={`/${item.toLowerCase()}`}
-                  className={`nav-link ${selectedIndex === index ? "active fw-bold" : "text-light"}`}
+                  className={`nav-link ${selectedIndex === index ? "active fw-bold" : "brand-name"}`}
                 >
                   {item}
                 </Link>

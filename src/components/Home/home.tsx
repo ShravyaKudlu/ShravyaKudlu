@@ -10,7 +10,7 @@ function App() {
         <div className="avatar">
           <img src={Shravya} alt="Shravya Kudlu" />
         </div>
-        <h1 className="name">Hi I'm Shravya</h1>
+        <h1 className="name">About Me</h1>
         <div className="content">
           <div className="content__container">
             <ul className="content__container__list">
