@@ -2,6 +2,7 @@ import "./home.css";
 
 //import ShravyaKudlu from "../../assets/ShravyaKudlu.jpeg";
 import Shravya from "../../assets/Shravya.png";
+import ShravyaKudlu from "./ShravyaKudlu-unscreen.gif";
 
 function App() {
   return (
@@ -10,7 +11,6 @@ function App() {
         <div className="avatar">
           <img src={Shravya} alt="Shravya Kudlu" />
         </div>
-        <h1 className="name">About Me</h1>
         <div className="content">
           <div className="content__container">
             <ul className="content__container__list">
@@ -29,13 +29,21 @@ function App() {
             </ul>
           </div>
         </div>
-     
-      <h5>Passionate NJIT student on a coding odyssey. Studying the art of development with a focus on DevOps and cloud magic. Armed with experience in SOA architecture and ESB, I've fine-tuned my debugging superpowers with Accenture. In the realm of microservices, I'm not just a learner but a creator—constantly crafting projects and prototypes in my coding playground. Balancing academic feats with a knack for on-the-spot creative solutions. Catch me at hackathons, turning lines of code into masterpieces! Currently mastering the realms of Java Spring Cloud, Docker, Kubernetes, and conquering full-stack development.Eager to collaborate on innovative projects, let's connect and bring our coding dreams to life together! </h5>
+        <div className="GifContainer">
+        <img
+            className="gif"
+            src={ShravyaKudlu}
+            alt="image/gif"
+            style={{ width: "200px", height: "350px" }}
+          />
 
-              </div>
-
-    </div>
-    
+          <h5>
+          "I'm a New Jersey Institute of Technology student with a strong focus on DevOps, cloud, and microservices. My debugging skills have been honed at Accenture, and I'm not just a hackathon enthusiast but also a passionate full-stack developer. Let's connect and collaborate to turn our coding dreams into reality!"
+          </h5>
+        </div>
+          
+        </div>
+      </div>
   );
 }
 

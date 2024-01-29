@@ -15,7 +15,7 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-tranparent fixed-top">
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand">
+        <Link to="/ShravyaKudlu" className="navbar-brand">
           <img
             src={imageSrcPath}
             width="60"

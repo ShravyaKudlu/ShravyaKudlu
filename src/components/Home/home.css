@@ -58,6 +58,10 @@
     /* Adjust the size for smaller screens */
     margin-top: 10%;
   }
+  .GifContainer{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 600px) {
@@ -67,6 +71,10 @@
     height: 150px;
     /* Adjust the size for smaller screens */
     margin-top: 20%;
+  }
+  .GifContainer{
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -144,11 +152,11 @@ h5 {
 }
 
 h1 {
-  padding-top: 20px;
+  padding-top: 5%;
 }
 
 h5{
-  text-align: center;
+  margin-top: 10%;
 }
 
 .TheContainer {
@@ -172,6 +180,11 @@ h5{
 .TheContainer::-webkit-scrollbar-track {
   background-color: transparent; /* Set the track color to transparent */
 }
+.AboutMe{
+  display: flex;
+  overflow: scroll;
+
+}
 
 * {
   margin: 0;
@@ -179,3 +192,7 @@ h5{
   box-sizing: border-box;
 }
 
+
+.GifContainer{
+  display: flex;
+}
