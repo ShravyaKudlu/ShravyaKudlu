@@ -1,14 +1,13 @@
 .contact-container {
+  position: sticky;
+  bottom: 0; /* Fix the container to the bottom of the viewport */
+  left: 0; /* Align the container to the left edge of the viewport */
   display: flex;
   justify-content: space-between; /* Place content at the beginning and end */
   align-items: center; /* Center the content vertically */
   background-color: transparent; /* Dark background color */
+  backdrop-filter: blur(3px); /* Apply a blur effect to the content behind */
   padding: 10px; /* Add padding for better visibility */
-
-  position: relative;
-  bottom: 0; /* Fix the container to the bottom of the viewport */
-  left: 0; /* Align the container to the left edge of the viewport */
-  width: 100%; /* Make the container full width */
 }
 
 .contact-container h4 {

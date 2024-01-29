@@ -6,6 +6,7 @@
   align-items: center;
   background-color: transparent;
   margin-top: 10%;
+  overflow:hidden;
 }
 
 @keyframes float {
@@ -35,8 +36,7 @@
   transform: translatey(0px);
   image-rendering: auto;
   animation: float 6s ease-in-out infinite;
-  z-index: 3999;
-
+  z-index: 100000000000000000;
   img {
     width: 100%;
     height: auto;
@@ -57,6 +57,16 @@
     height: 150px;
     /* Adjust the size for smaller screens */
     margin-top: 10%;
+  }
+}
+
+@media (max-width: 600px) {
+  .avatar {
+    width: 150px;
+    /* Adjust the size for smaller screens */
+    height: 150px;
+    /* Adjust the size for smaller screens */
+    margin-top: 20%;
   }
 }
 
@@ -148,7 +158,19 @@ h5{
   padding-right: 17%;
   padding-left: 17%;
   padding-top: 2%;
+  overflow:scroll;
   
+}
+.TheContainer::-webkit-scrollbar {
+  width: 12px; /* Adjust the width as needed */
+}
+
+.TheContainer::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Set the thumb color to transparent */
+}
+
+.TheContainer::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the track color to transparent */
 }
 
 * {
