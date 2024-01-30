@@ -9,13 +9,26 @@ interface NavBarProps {
   navItems: string[];
 }
 
+
+
 function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
   const [selectedIndex, setSelectedIndex] = useState(-1);
+  const handleItemClick = (index: number) => {
+    setSelectedIndex(index);
+
+    // Check if the window width is smaller (mobile or tablet)
+    if (window.innerWidth <= 768) {
+      const navbarCollapse = document.getElementById("navbarCollapse");
+      if (navbarCollapse) {
+        navbarCollapse.classList.remove("show"); // Collapse the navbar
+      }
+    }
+  };
 
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-tranparent fixed-top">
       <div className="container-fluid">
-        <Link to="/ShravyaKudlu" className="navbar-brand">
+        <Link to="/ShravyaKudlu/" className="navbar-brand">
           <img
             src={imageSrcPath}
             width="60"
@@ -42,7 +55,7 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
               <li
                 key={index}
                 className="nav-item"
-                onClick={() => setSelectedIndex(index)}
+                onClick={() => handleItemClick(index)}
               >
                 <Link
                   to={`/${item.toLowerCase()}`}

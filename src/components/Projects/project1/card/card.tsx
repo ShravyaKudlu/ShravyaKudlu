@@ -10,10 +10,22 @@ const Card: React.FC<CardProps> = ({ onClick }) => {
   return (
     <div className="card" onClick={onClick}>
       <div className="card-back">
-      In the Legacy Uplift initiative, I led the transition of legacy code to a modern cloud infrastructure across 6 environments. As the sole representative from my team, I managed 18 services, ensuring a smooth migration process. I actively monitored message flow, addressing issues promptly, leading to a 20% improvement in system reliability. My estimates and code enhancements resulted in a 15% reduction in migration time. I played a crucial role in establishing new databases, registering Data Source Names (DSNs), contributing to a 25% increase in overall system efficiency. Additionally, my meticulous documentation streamlined collaboration, benefiting other environments and my team.</div>
+        Contribution: <br />Led Legacy Uplift initiative, transitioning legacy code to
+        modern cloud infrastructure across six environments. Managed 18
+        services, ensuring a seamless migration and addressing issues promptly
+        for a 20% improvement in system reliability. Played a key role in
+        establishing new databases, contributing to a 25% increase in system
+        efficiency.
+        <br /><br />
+        Achievements: <br />Reduced migration time by 15% through estimates and code
+        enhancements, significantly impacting project timelines. Meticulous
+        documentation streamlined collaboration, benefiting team and other
+        environments, leaving a lasting impact on knowledge transfer and
+        communication efficiency.{" "}
+      </div>
       <div className="card-front">
-        Legacy Code Migration and Cloud Infrastructure Enhancement
-        [Accenture(Jan23-Aug23)]
+        "Legacy Code Migration and Cloud Infrastructure Enhancement"
+        <br /><br /> Accenture <br />[Jan23-Aug23]
       </div>
     </div>
   );

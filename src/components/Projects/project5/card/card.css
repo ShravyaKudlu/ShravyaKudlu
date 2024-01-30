@@ -1,7 +1,8 @@
 .card {
   /* Sizing */
   height: 100%;
-  width: 100%;
+  width: 110%;
+  
 
   transform-style: preserve-3d;
 
@@ -63,4 +64,18 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B15B86", en
   color: pink;
   transform: rotateY(180deg);
   font-size: 17px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-back a {
+  color: violet; /* Default color */
+  text-decoration: none; /* Remove underline */
+  font-size: larger;
+}
+
+.card-back a:hover {
+  color: red; /* Change color on hover */
+  transform: scale(1.5);
 }
