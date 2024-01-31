@@ -19,10 +19,10 @@ function App() {
         <NavBar brandName="ShravyaKudlu" imageSrcPath={imagePath} navItems={items} />
 
         <Routes>
-          <Route path="/ShravyaKudlu/about" element={<Home />} />
+          <Route path="/about" element={<Home />} />
           <Route path="/ShravyaKudlu/" element={<About />} />
-          <Route path="/ShravyaKudlu/skills" element={<Skills />} />
-          <Route path="/ShravyaKudlu//projects" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
 
         <Contact

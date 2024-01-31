@@ -1,19 +1,19 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import "./skills.css";
 
 const Skills: React.FC = () => {
   useEffect(() => {
-    const animatedBars = document.querySelectorAll('.animated-bar');
+    const animatedBars = document.querySelectorAll(".animated-bar");
 
     animatedBars.forEach((bar: Element) => {
-      const widthPercentage = (bar as HTMLElement).dataset.percent + '%';
+      const widthPercentage = (bar as HTMLElement).dataset.percent + "%";
       (bar as HTMLElement).style.width = widthPercentage;
-      (bar as HTMLElement).style.transition = 'width 0.5s';
+      (bar as HTMLElement).style.transition = "width 0.5s";
     });
   }, []);
 
   return (
-    <div className='skills'>
+    <div className="skills">
       <section className="programming">
         <h2>Programming</h2>
         <ul>
@@ -125,7 +125,7 @@ const Skills: React.FC = () => {
               <span className="skill-name">Django</span>
             </div>
           </li>
-          <li>
+          {/* <li>
             <div className="animated-bar-container">
               <div className="animated-bar" data-percent="85"></div>
               <span className="skill-name">Spring Boot</span>
@@ -136,7 +136,7 @@ const Skills: React.FC = () => {
               <div className="animated-bar" data-percent="75"></div>
               <span className="skill-name">Spring Cloud</span>
             </div>
-          </li>
+  </li> */}
           <li>
             <div className="animated-bar-container">
               <div className="animated-bar" data-percent="70"></div>
@@ -146,7 +146,6 @@ const Skills: React.FC = () => {
         </ul>
       </section>
 
-     
       <section className="ci-cd">
         <h2>CI/CD & Tools</h2>
         <ul>
@@ -207,7 +206,9 @@ const Skills: React.FC = () => {
           <li>
             <div className="animated-bar-container">
               <div className="animated-bar" data-percent="75"></div>
-              <span className="skill-name">Internet & Higher Level Protocols</span>
+              <span className="skill-name">
+                Internet & Higher Level Protocols
+              </span>
             </div>
           </li>
           <li>
@@ -219,9 +220,7 @@ const Skills: React.FC = () => {
         </ul>
       </section>
     </div>
-
-    
   );
-}
+};
 
 export default Skills;
