@@ -19,16 +19,15 @@ function App() {
         <NavBar brandName="ShravyaKudlu" imageSrcPath={imagePath} navItems={items} />
 
         <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/about" element={<Home />} />
+          <Route path="/ShravyaKudlu/about" element={<Home />} />
           <Route path="/ShravyaKudlu/" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/ShravyaKudlu/skills" element={<Skills />} />
+          <Route path="/ShravyaKudlu//projects" element={<Projects />} />
         </Routes>
 
         <Contact
           linkedinUrl={"https://www.linkedin.com/in/shravya-kudlu/"}
-          resumeUrl={"./assets/ShravyaKudluResume.pdf"}
+          resumeUrl={"./ShravyaKudlu/assets/ShravyaKudluResume.pdf"}
           email={"shravyakudlu@gmail.com"}
           phone={"8628001476"}
           githubUrl={"https://github.com/ShravyaKudlu"}

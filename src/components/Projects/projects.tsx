@@ -8,6 +8,11 @@ import Project3 from './project3/flippable-card';
 import Project4 from './project4/flippable-card';
 import Project5 from './project5/flippable-card';
 import Project6 from './project6/flippable-card';
+import Project7 from './project7/flippable-card';
+import Project8 from './project8/flippable-card';
+import Project9 from './project9/flippable-card';
+import Project10 from './project10/flippable-card';
+import Project11 from './project11/flippable-card';
 
 import './styles.css';
 
@@ -32,9 +37,11 @@ export default function App() {
         <SwiperSlide data-hash="slide4"><Project4/></SwiperSlide>
         <SwiperSlide data-hash="slide5"><Project5/></SwiperSlide>
         <SwiperSlide data-hash="slide6"><Project6/></SwiperSlide>
-        <SwiperSlide data-hash="slide7">Slide 7</SwiperSlide>
-        <SwiperSlide data-hash="slide8">Slide 8</SwiperSlide>
-        <SwiperSlide data-hash="slide9">Slide 9</SwiperSlide>
+        <SwiperSlide data-hash="slide7"><Project7/></SwiperSlide>
+        <SwiperSlide data-hash="slide8"><Project8/></SwiperSlide>
+        <SwiperSlide data-hash="slide9"><Project9/></SwiperSlide>
+        <SwiperSlide data-hash="slide10"><Project10/></SwiperSlide>
+        <SwiperSlide data-hash="slide11"><Project11/></SwiperSlide>
       </Swiper>
     </div>
   );
