@@ -1,7 +1,6 @@
 import React, { MouseEventHandler } from "react";
 import "./card.css";
 
-
 interface CardProps {
   onClick: MouseEventHandler<HTMLDivElement>;
 }
@@ -10,11 +9,9 @@ const Card: React.FC<CardProps> = ({ onClick }) => {
   return (
     <div className="card" onClick={onClick}>
       <div className="card-back">
-        Development: <br />
-        <br />
-        <br />
-        Achievements: <br />
-
+        Objective: Gain proficiency in Kubernetes and Docker by transforming the
+        tweet_blog_post microservices into a unified Pod for streamlined
+        deployment at the server level.
       </div>
 
       <div className="card-front">
