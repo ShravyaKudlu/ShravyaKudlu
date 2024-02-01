@@ -27,7 +27,7 @@ function App() {
 
         <Contact
           linkedinUrl={"https://www.linkedin.com/in/shravya-kudlu/"}
-          resumeUrl={"./ShravyaKudlu/assets/ShravyaKudluResume.pdf"}
+          resumeUrl={"./assets/ShravyaKudluResume.pdf"}
           email={"shravyakudlu@gmail.com"}
           phone={"8628001476"}
           githubUrl={"https://github.com/ShravyaKudlu"}
