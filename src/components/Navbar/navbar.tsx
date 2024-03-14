@@ -58,7 +58,7 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
                 onClick={() => handleItemClick(index)}
               >
                 <Link
-                  to={`/${item.toLowerCase()}`}
+                  to={`/ShravyaKudlu/${item.toLowerCase()}`}
                   className={`nav-link ${selectedIndex === index ? "active fw-bold" : "brand-name"}`}
                 >
                   {item}
