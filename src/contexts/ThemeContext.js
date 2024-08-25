@@ -1,12 +1,7 @@
 /* eslint-disable */
 import React, { createContext, useState } from "react";
 import DarkLightMode from "../components/DarkLightMode/DarkLightMode";
-import {
-  pinkThemeLight,
-  pinkThemeDark,
-  purpleThemeDark,
-  purpleThemeLight,
-} from "../theme/theme";
+import { pinkThemeLight, pinkThemeDark } from "../theme/theme";
 export const ThemeContext = createContext();
 
 function ThemeContextProvider(props) {
@@ -17,17 +12,17 @@ function ThemeContextProvider(props) {
   const themes = [
     {
       name: "Pink Light",
-      theme: pinkThemeLight
+      theme: pinkThemeLight,
     },
     {
       name: "Pink Dark",
-      theme: pinkThemeDark
+      theme: pinkThemeDark,
     },
   ];
 
   const handleChange = () => {
-    setChecked(prevChecked => !prevChecked);
-    setThemeIndex(prevIndex => (prevIndex + 1) % themes.length);
+    setChecked((prevChecked) => !prevChecked);
+    setThemeIndex((prevIndex) => (prevIndex + 1) % themes.length);
   };
 
   const setHandleDrawer = () => {
@@ -37,18 +32,20 @@ function ThemeContextProvider(props) {
   const value = {
     theme: themes[themeIndex].theme,
     drawerOpen,
-    setHandleDrawer
+    setHandleDrawer,
   };
 
   return (
     <>
-      <DarkLightMode onChange={handleChange} theme={themes[themeIndex].theme} />
+      <DarkLightMode
+        onChange={handleChange}
+        theme={themes[themeIndex].theme}
+      />
       <ThemeContext.Provider value={value}>
         {props.children}
       </ThemeContext.Provider>
     </>
   );
 }
-
 
 export default ThemeContextProvider;

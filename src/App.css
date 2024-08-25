@@ -1,6 +1,7 @@
 :root {
-    --primaryFont: 'Roboto', sans-serif;
-    /* --primaryFont: 'Montserrat', sans-serif; */
-    /* --primaryFont: 'Raleway', sans-serif; */
-}
+  --primaryFont: "Poppins", sans-serif;
+  --secondaryFont: "Lora", serif;
 
+  /* --primaryFont: 'Montserrat', sans-serif; */
+  /* --primaryFont: 'Raleway', sans-serif; */
+}

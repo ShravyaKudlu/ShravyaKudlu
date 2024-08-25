@@ -22,8 +22,32 @@
   height: var(--img-size);
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px #f4a6b8, 0 0 40px rgba(202, 80, 121, 0.5);
+  transition: opacity 0.3s, transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  background-color: "#F9D5D3";
+}
+
+.landing--img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(202, 80, 121, 0.3); /* Semi-transparent pink overlay */
+  border-radius: 50%;
+  opacity: 0;
   transition: opacity 0.3s;
+}
+
+.landing--img:hover::before {
+  opacity: 1; /* Overlay visible on hover */
+}
+
+.landing--img:hover {
+  box-shadow: 0 0 30px #f4a6b8, 0 0 60px rgba(202, 80, 121, 0.7);
+  opacity: 1;
 }
 
 .landing--container-left {
@@ -32,6 +56,10 @@
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
+  background: linear-gradient(to right, #ca5079, #f4a6b8);
+  box-shadow: 0 4px 8px #ca5079;
+  position: relative;
+  box-shadow: 0 0 20px #f4a6b8, 0 0 40px rgba(202, 80, 121, 0.5);
 }
 
 .lcl--content {
@@ -258,16 +286,21 @@
 }
 
 @keyframes change {
-  0%, 12.5%, 100% {
+  0%,
+  12.5%,
+  100% {
     transform: translate3d(0, 0, 0);
   }
-  25%, 37.5% {
+  25%,
+  37.5% {
     transform: translate3d(0, -25%, 0);
   }
-  50%, 62.5% {
+  50%,
+  62.5% {
     transform: translate3d(0, -50%, 0);
   }
-  75%, 87.5% {
+  75%,
+  87.5% {
     transform: translate3d(0, -75%, 0);
   }
 }

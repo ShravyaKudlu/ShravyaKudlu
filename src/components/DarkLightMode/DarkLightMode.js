@@ -59,7 +59,12 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 function DarkLightMode({ onChange, theme }) {
-  return <MaterialUISwitch sx={{ m: 1 }} onChange={onChange} />;
+  return (
+    <MaterialUISwitch
+      sx={{ m: 1 }}
+      onChange={onChange}
+    />
+  );
 }
 
 export default DarkLightMode;
