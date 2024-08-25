@@ -22,7 +22,8 @@
   height: var(--img-size);
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 0 20px #f4a6b8, 0 0 40px rgba(202, 80, 121, 0.5);
+  box-shadow: 0 0 20px #d94e6d, 0 0 40px rgba(170, 50, 80, 0.7);
+
   transition: opacity 0.3s, transform 0.3s, box-shadow 0.3s;
   overflow: hidden;
   background-color: "#F9D5D3";
@@ -57,9 +58,10 @@
   align-items: flex-end;
   justify-content: flex-start;
   background: linear-gradient(to right, #ca5079, #f4a6b8);
-  box-shadow: 0 4px 8px #ca5079;
   position: relative;
-  box-shadow: 0 0 20px #f4a6b8, 0 0 40px rgba(202, 80, 121, 0.5);
+  box-shadow: 0 4px 8px rgba(150, 30, 60, 0.7),
+    /* Darker shadow below */ 0 0 20px #b83c5c,
+    /* Darker shadow effect */ 0 0 40px rgba(150, 30, 60, 0.7); /* Deeper shadow with higher opacity */
 }
 
 .lcl--content {
