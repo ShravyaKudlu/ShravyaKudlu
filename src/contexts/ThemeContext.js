@@ -2,7 +2,7 @@
 import React, { createContext, useState } from "react";
 import DarkLightMode from "../components/DarkLightMode/DarkLightMode";
 import { pinkThemeLight, pinkThemeDark } from "../theme/theme";
-import FloatingActionButton from "../components/Chatbot/FloatingActionButton";
+import FloatingChatActionButton from "../components/Chatbot/FloatingChatActionButton";
 
 export const ThemeContext = createContext();
 
@@ -45,7 +45,7 @@ function ThemeContextProvider(props) {
       />
 
       <ThemeContext.Provider value={value}>
-        <FloatingActionButton />
+        <FloatingChatActionButton />
         {props.children}
       </ThemeContext.Provider>
     </>

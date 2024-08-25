@@ -11,4 +11,4 @@ export { default as SingleProject } from "./Projects/SingleProject/SingleProject
 export { default as Achievement } from "./Achievement/Achievement";
 export { default as BackToTop } from "./BackToTop/BackToTop";
 export { default as DarkLightMode } from "./DarkLightMode/DarkLightMode";
-export { default as FloatingActionButton } from "./Chatbot/FloatingActionButton";
+export { default as FloatingChatActionButton } from "./Chatbot/FloatingChatActionButton";
