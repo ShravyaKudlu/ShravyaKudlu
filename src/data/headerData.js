@@ -1,13 +1,14 @@
-import resume from '../assets/pdf/ShravyaKudluResume.pdf'
-import shravyakudluimage from '../assets/images/Shravya.png'
+import resume from "../assets/pdf/ShravyaKudluResume.pdf";
+import shravyakudluimage from "../assets/images/Shravya.png";
 
 export const headerData = {
-    name: 'Shravya Kudlu',
-    title1: "[ Application DEVELOPER ]",
-    title2: "[ Software ENGINEER ]",
-    title3: "[  Cloud ARCHITECT ]",
-    title5: "[  AI Advocate ]",
-    desciption1:"“Life is essentially an endless series of problems. The solution to one problem is merely the creation of another. Don’t hope for a life without problems. Hope for a life full of good problems.”  ",
-    image: shravyakudluimage,
-    resumePdf: resume
-}
+  name: "Shravya Kudlu",
+  title1: "[ Application DEVELOPER ]",
+  title2: "[ Software ENGINEER ]",
+  title3: "[  Cloud ARCHITECT ]",
+  title5: "[  AI Advocate ]",
+  desciption1:
+    "“I'm a curious, patient, and collaborative professional. If you're looking for someone who combines expertise with an educated wish for success and a commitment to maximum effort, let’s connect!  ",
+  image: shravyakudluimage,
+  resumePdf: resume,
+};

@@ -3,11 +3,12 @@ import shravyakudlugif from "../assets/images/Shravya.gif";
 export const aboutData = {
   title: "Who I am",
   description1:
-    "My name's Shravya. I'm a gratuate student at the New Jersey Institute of Technology.",
+    "I’m Shravya of the House Kudlu, the First of Her Name, the Geek, Queen of Humor, the Optimistic, Master of Computer Applications, Khal of Several OS, Breaker of Sarcasm, and Mother of All My Gadgets.",
   description2:
-    "I'm passionate about full-stack web and mobile application development, with a strong focus on DevOps and cloud technologies. Over the past 2 years @ACCENTURE, I have finely tuned my debugging skills, contributing to various high-impact projects. I dedicate my downtime to personal projects and tackle LeetCode challenges. Outside of academia, I explore NYC or enjoy the strategic thrill of playing chess.",
-  description3:"MY GOAL?????",
-  description4: "   To become a software architect, steering companies towards optimal technological solutions, while also advancing in machine learning and AI to stay at the forefront of innovation, enabling companies to gain valuable insights into their consumer base.",
-  
-    image: shravyakudlugif,
+    "I’m a graduate student at the New Jersey Institute of Technology, passionate about software development and always curious to learn the latest. With two years at Accenture, I’ve gained valuable experience contributing to some awesome projects. I dive into personal projects, tackle LeetCode challenges, explore NYC, and enjoy a good game of chess.",
+  description3: "MY GOAL?????",
+  description4:
+    "I aim to become a software architect, guiding companies toward tech brilliance and exploring the realms of machine learning and AI. Let’s build something extraordinary together!",
+
+  image: shravyakudlugif,
 };
