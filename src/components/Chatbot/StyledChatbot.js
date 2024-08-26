@@ -16,6 +16,11 @@ const geminiApiKey = "AIzaSyCbtkC20RkzjZ7J9HkJZ37k12fdbF_MJWg";
 const trainingData = [
   {
     name: "Shravya-Kudlu",
+    status: "single",
+    kids: "None",
+    birthdate: "17th october 1998",
+    pronouns: "She/Her",
+
     subcategories: [
       {
         name: "About",
