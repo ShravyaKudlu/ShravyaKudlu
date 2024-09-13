@@ -6,7 +6,7 @@ export const ThemeContext = createContext();
 import FloatingChatActionButton from "../components/Chatbot/FloatingChatActionButton";
 
 function ThemeContextProvider(props) {
-  const [themeIndex, setThemeIndex] = useState(0);
+  const [themeIndex, setThemeIndex] = useState(1);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [checked, setChecked] = useState(false);
 
