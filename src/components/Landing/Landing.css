@@ -57,9 +57,9 @@
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  background: linear-gradient(to right, #ca5079, #f4a6b8);
+  background: linear-gradient(to right, #c0456e, #eb9eb0);
   position: relative;
-  box-shadow: 0 4px 8px rgba(150, 30, 60, 0.7),
+  box-shadow: 4px 4px 8px rgba(150, 30, 60, 0.7),
     /* Darker shadow below */ 0 0 20px #b83c5c,
     /* Darker shadow effect */ 0 0 40px rgba(150, 30, 60, 0.7); /* Deeper shadow with higher opacity */
 }
@@ -199,6 +199,7 @@
     transform: translate(-50%, -50%);
   }
   .landing--container-left {
+    background: linear-gradient(to bottom, #c0456e, #eb9eb0);
     flex: initial;
     width: 100%;
     height: 30%;
