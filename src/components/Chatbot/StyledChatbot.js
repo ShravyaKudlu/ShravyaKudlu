@@ -13,7 +13,7 @@ const ChatbotWrapper = styled("div")(({ theme }) => ({
   zIndex: 1300,
 }));
 
-const geminiApiKey = "AIzaSyCbtkC20RkzjZ7J9HkJZ37k12fdbF_MJWg";
+const geminiApiKey = "AIzaSyADKj4cYMV55kM0iI_YHWrr3Lf0bHrkDoA";
 
 function StyledChatbot() {
   const { theme } = useContext(ThemeContext);
