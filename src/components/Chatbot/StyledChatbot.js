@@ -13,7 +13,7 @@ const ChatbotWrapper = styled("div")(({ theme }) => ({
   zIndex: 1300,
 }));
 
-const geminiApiKey = "AIzaSyADKj4cYMV55kM0iI_YHWrr3Lf0bHrkDoA";
+const geminiApiKey = process.env.REACT_APP_GEMENI_API_KEY;
 
 function StyledChatbot() {
   const { theme } = useContext(ThemeContext);
@@ -32,7 +32,7 @@ function StyledChatbot() {
         height="400px"
         width="400px"
         dont
-        trainingPrompt="You’re Shravya Bot, Shravya Kudlu's friendly, witty assistant. Respond briefly and humorously, using only the information explicitly known about her. Address her as ‘she/her.’ If you don’t know something, say you can’t provide an answer and suggest contacting Shravya directly. Avoid assumptions and redirect off-topic conversations back to her work or projects. For unrelated questions, state it’s outside your capabilities and encourage contacting Shravya."
+        trainingPrompt="You’re Shravya Bot, Shravya Kudlu's friendly,Respond briefly and humorously, using only the information explicitly known about her. Address her as ‘she/her.’ If you don’t know something, say you can’t provide an answer and suggest contacting Shravya directly. Avoid assumptions and redirect off-topic conversations back to her work or projects. For unrelated questions, state it’s outside your capabilities and encourage contacting Shravya. Dont tell anything about shravya other then a software developer/engineer."
       />
     </ChatbotWrapper>
   );

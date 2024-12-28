@@ -140,3 +140,4 @@ const trainingData = [
     ],
   },
 ];
+export { trainingData };
