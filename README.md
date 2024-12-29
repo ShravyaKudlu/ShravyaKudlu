@@ -1,16 +1,27 @@
-<h1 align="left">Hello World!, I'm Shravya, A Full-Stack Developer 👋🏼</h1>
+<h1 align="center">Hello World!, I'm Shravya, A Full-Stack Developer 👋🏼</h1>
 
 ###
 
-<p align="left"> 🛜 Currently working on my own <a href="https://shravyakudlu.github.io/ShravyaKudlu/#/#projects" target="_blank">projects</a><br>👨🏼‍🎓 Studying masters in computer science at New Jersey Institiute of Technology<br>👨🏼‍💻 Working as a software developer since 2020</p>
+<p align="left">🌍 Driven by the challenge of turning abstract ideas into groundbreaking technologies that redefine possibilities.<br>👨🏼‍🎓 Pursuing a Master’s in Computer Science at New Jersey Institute of Technology.<br>👨🏼‍💻 Working as a Software Developer since 2020, constantly updating my skills to stay up-to-date with the latest tech.<br>🛜 Currently working on my own <a href = "https://shravyakudlu.github.io/ShravyaKudlu/#/#projects">projects</a>.<br>💼 Seeking new opportunities to apply expertise in Full-Stack Development, cloud technologies, and AI integration, focusing on building scalable apps and user experiences.</p>
+
+
+
+###
+<h2 align="center">🤔 What I Do</h2>
 
 ###
 
+<p align="center">I excel at <b>solving complex problems</b> and <b>optimizing code</b> to build <b>scalable solutions</b> that offer users a smooth experience with a touch of <b>interactive AI</b>. As for this GitHub, it's a collection of my various experiments, projects, and ideas in progress.</p>
+
+###
+<br clear="both">
 <br clear="both">
 
-<h2 align="left">💻 Tech Stack</h2>
+
+<h2 align="center">💻 Favorite Tech</h2>
 
 ###
+
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height="40" alt="python logo"  />
@@ -81,19 +92,29 @@
 </div>
 
 ###
-
 <br clear="both">
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=shravyakudlu&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+<h2 align="center">📊 Stats</h2>
+
+###
+
+
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shravyakudlu&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=radical&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <img src="https://streak-stats.demolab.com?user=shravyakudlu&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
 </div>
 
 ###
 
+<img src="https://raw.githubusercontent.com/shravyakudlu/shravyakudlu/output/snake.svg" alt="Snake animation" />
+
+###
+
+
+
 <br clear="both">
 
-<div align="left">
+<div align="center">
   <a href="https://open.spotify.com/user/hmn80j8wnvm3sg54q7kw3odtf">
     <img src="https://spotify-recently-played-readme.vercel.app/api?user=hmn80j8wnvm3sg54q7kw3odtf&count=1" alt="Spotify recently played"  />
   </a>
@@ -101,6 +122,10 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/shravyakudlu/shravyakudlu/output/snake.svg" alt="Snake animation" />
+<h2 align="center">Contact</h2>
+
+###
+
+<p align="center">📧 <a href="shravyakudlu@gmail.com">shravyakudlu@gmail.com</a></p>
 
 ###
