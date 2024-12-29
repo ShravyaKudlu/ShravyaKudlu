@@ -14,8 +14,7 @@
 <p align="center">I excel at <b>solving complex problems</b> and <b>optimizing code</b> to build <b>scalable solutions</b> that offer users a smooth experience with a touch of <b>interactive AI</b>. As for this GitHub, it's a collection of my various experiments, projects, and ideas in progress.</p>
 
 ###
-<br clear="both">
-<br clear="both">
+
 
 
 <h2 align="center">💻 Favorite Tech</h2>
@@ -92,23 +91,18 @@
 </div>
 
 ###
-<br clear="both">
 
 <h2 align="center">📊 Stats</h2>
 
-###
-
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shravyakudlu&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=radical&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=shravyakudlu&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+<div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shravyakudlu&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=radical&hide_border=false&order=2" height="150" alt="languages graph" />
+  <img src="https://streak-stats.demolab.com?user=shravyakudlu&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph" />
+  <img src="https://leetcard.jacoblin.cool/shravyakudlu?theme=radical&font=Kantumruy&ext=heatmap" width="800" height="300" alt="LeetCode Heatmap" />
 </div>
-
-###
-
 <img src="https://raw.githubusercontent.com/shravyakudlu/shravyakudlu/output/snake.svg" alt="Snake animation" />
 
-###
+
+
 
 
 
