@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left"> 🛜 Currently working on my own <a href="https://shravyakudlu.github.io/ShravyaKudlu/#/" target="_blank">webpage</a><br>👨🏼‍🎓 Studying masters in computer science at New Jersey Institiute of Technology<br>👨🏼‍💻 Working as a software developer since 2020</p>
+<p align="left"> 🛜 Currently working on my own <a href="https://shravyakudlu.github.io/ShravyaKudlu/#/#projects" target="_blank">projects</a><br>👨🏼‍🎓 Studying masters in computer science at New Jersey Institiute of Technology<br>👨🏼‍💻 Working as a software developer since 2020</p>
 
 ###
 
