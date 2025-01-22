@@ -97,7 +97,7 @@
   <img src="https://streak-stats.demolab.com?user=shravyakudlu&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph" />
   <img src="https://leetcard.jacoblin.cool/shravyakudlu?theme=radical&font=Kantumruy&ext=heatmap" width="800" height="300" alt="LeetCode Heatmap" />
 </div>
-<img src="https://raw.githubusercontent.com/shravyakudlu/shravyakudlu/output/snake.svg" alt="Snake animation" />
+<!-- <img src="https://raw.githubusercontent.com/shravyakudlu/shravyakudlu/output/snake.svg" alt="Snake animation" /> -->
 
 
 
