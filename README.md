@@ -141,9 +141,10 @@
 <div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shravyakudlu&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=radical&hide_border=false&order=2" height="150" alt="languages graph" />
   <img src="https://streak-stats.demolab.com?user=shravyakudlu&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph" />
-  <img src="https://leetcard.jacoblin.cool/shravyakudlu?theme=radical&font=Kantumruy&ext=heatmap" width="800" height="300" alt="LeetCode Heatmap" />
+<!--   <img src="https://leetcard.jacoblin.cool/shravyakudlu?theme=radical&font=Kantumruy&ext=heatmap" width="800" height="300" alt="LeetCode Heatmap" /> -->
 </div>
 <!-- <img src="https://raw.githubusercontent.com/shravyakudlu/shravyakudlu/output/snake.svg" alt="Snake animation" /> -->
+
 
 
 
