@@ -9,7 +9,7 @@
 </p>
 
 <p>
-  🌍 Based in <strong>New York</strong><br>
+  🌍 Based in <strong>Bengaluru</strong><br>
   🖥️ Portfolio: <a href="http://shravyakudlu.github.io/ShravyaKudlu/#/">shravyakudlu.dev</a><br>
   ✉️ Reach me at: <a href="mailto:shravyakudlu@gmail.com">shravyakudlu@gmail.com</a><br>
   🧠 Currently learning <strong>AI/ML for enterprise integration</strong>, including <strong>Prompt Engineering</strong> and <strong>RAG</strong>, alongside <strong>Rust</strong> for systems-level programming and productivity-focused development using <strong>Neovim</strong>
