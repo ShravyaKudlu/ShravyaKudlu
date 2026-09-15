@@ -2,7 +2,7 @@
   Hi <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="25" />, I'm Shravya Kudlu
 </h1>
 
-<h2 align="center">Software Developer</h2>
+<h2 align="center">Software Engineer</h2>
 
 <p>
 I'm a Software Engineer who likes problems where the constraints are real — latency budgets, messy data, users who wants to automate their workflow.
