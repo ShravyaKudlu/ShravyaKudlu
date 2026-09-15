@@ -5,15 +5,15 @@
 <h2 align="center">Software Developer</h2>
 
 <p>
-  I'm a passionate Full-Stack Developer driven by the challenge of solving real-world problems with scalable and efficient software. With experience in modern web technologies, cloud platforms, and a growing interest in AI, I build robust applications that blend performance with creativity.
+I'm a Software Engineer who likes problems where the constraints are real — latency budgets, messy data, users who wants to automate their workflow.
+My work has centered on where web engineering meets applied AI. That's meant Python services powering RAG pipelines over vector databases, clients talking to FastAPI backends, and LLM features built to survive contact with production rather than demo well once. I've also spent time on the less glamorous half of AI-assisted development: codifying standards so generated code passes static analysis instead of quietly accruing debt.
 </p>
 
 <p>
   🌍 Based in <strong>Bengaluru</strong><br>
-  🖥️ Portfolio: <a href="http://shravyakudlu.github.io/ShravyaKudlu/#/">shravyakudlu.dev</a><br>
+  🖥️ Portfolio: <a href="https://shravyakudlu.vercel.app/">shravyakudlu.dev</a><br>
   ✉️ Reach me at: <a href="mailto:shravyakudlu@gmail.com">shravyakudlu@gmail.com</a><br>
-  🧠 Currently learning <strong>AI/ML for enterprise integration</strong>, including <strong>Prompt Engineering</strong> and <strong>RAG</strong>, alongside <strong>Rust</strong> for systems-level programming and productivity-focused development using <strong>Neovim</strong>
-</p>
+  
 
 <h2 align="center">🛠️ Tech</h2>
 
